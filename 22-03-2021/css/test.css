@@ -1,0 +1,26 @@
+@font-face{
+	font-family: "myTestFont";
+	src: url('../Seledina_Free_Trial.ttf');
+}
+.welcome {
+	font-family: "myTestFont";
+	font-size: 50px;
+	height: 200px;
+	border: 1px solid green;
+	text-align: center;
+	line-height: 200px;
+}
+.demo1{
+	text-transform: uppercase;
+}
+.demo2{
+	color: red;
+	font-size: 30px;
+	text-decoration: line-through;
+}
+.demo3{
+	color: green;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-shadow: -6px -2px 3px red;
+}

@@ -1,0 +1,32 @@
+@font-face{
+	font-family: "myTestFont";
+	src: url('../Amal Baik Free Trial.ttf');
+}
+.outside{
+	border-style: dashed;
+    width: 520px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 10px;
+    padding-left: 25px;
+    padding-right: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.out{
+	border-style: solid;
+	width: 495px;
+	padding-top: 10px;
+}
+.line1, .line2{
+	border-style: dashed;
+	width: 435px;
+	margin-bottom: 25px; 
+	margin-top: 25px;
+	margin-left: 10px;
+	padding: 10px;
+}
+.line1{
+	font-family: "myTestFont";
+	font-size: 40px;
+}

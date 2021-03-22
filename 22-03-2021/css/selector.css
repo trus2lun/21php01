@@ -1,0 +1,27 @@
+h1{
+	color: red;
+}
+h2{
+	color: green;
+}
+h3{
+	color: pink;
+}
+.name{
+	color: blue;
+	font-size: 20px;
+	font-weight: bold;
+}
+#shop{
+	color: black;
+	font-size: 40px;
+}
+.my-profile .name {
+	font-size: 40px;
+}
+.text-1, .text-2{
+	font-size: 35px !important;
+}
+.text-1{
+	font-size: 35px ;
+}
