@@ -1,0 +1,57 @@
+#demo1 {
+	width: 90%;
+	height: 700px;
+	margin: 30px auto;
+	border-radius: 5%;
+}
+#demo1 header {
+	margin: 15px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+#demo2 {
+	width: 700px;
+	margin-left: 15px;
+}
+h1 { 
+	font-size: 250%;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	color: orange;
+}
+h2 { 
+	font-size: 130%;
+	color: green;
+}
+#demo1 img { 
+	float: left;
+	margin-right: 30px;
+}
+#nav_body ul li {
+	list-style-type: none;
+}
+#nav_body ul li a.tubin {
+	color: gray;
+}
+#nav_body ul li a.amy {
+	color: green;
+}
+#nav_body ul li a.simp {
+	color: orange;
+}
+#div_body {
+	margin-top: 10px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.nah {
+	text-align: justify-all;
+	margin-right: 20px;
+}
+.ending i {
+	float: right;
+	font-family: arial;
+	font-size: 15px;
+    font-weight: normal;
+    padding-right: 60px;
+}
