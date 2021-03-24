@@ -1,13 +1,19 @@
+body {
+	background-image: linear-gradient(to bottom, #ada, yellow);
+	height: 500px;
+}
 #demo1 {
 	width: 90%;
+	border: 1px solid black;
 	height: 700px;
 	margin: 30px auto;
 	border-radius: 5%;
+	background-color: #F6E4E4;
 }
 #demo1 header {
 	margin: 15px;
 	padding-top: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 65px;
 }
 #demo2 {
 	width: 700px;
