@@ -1,0 +1,241 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	margin-left: 10px;
+}
+.leftl1, .mid1, .mid2 {
+	width: 6%;
+	float: left;
+	height: 25px;
+	border-bottom: 1px solid white;
+	border-right: 5px solid white;
+	border-top: 1px solid white;
+	text-align: center;
+	background-color: #6FB9F3;
+}
+.rightl4{
+	width: 6%;
+	float: left;
+	height: 25px;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	border-top: 1px solid white;
+	text-align: center;
+	background-color: #6FB9F3;
+}
+.leftl1{
+	border-left: 1px solid white;
+}
+.body{
+	float: left;
+	width: 1880px;
+	margin: 0 auto; 
+	margin-bottom: 5px;
+}
+.banner{
+	width: 1870px;
+	height: 200px;
+	border: 1px solid white;
+	border-radius: 30px;
+	margin-left: 10px; 
+	margin-bottom: 20px;
+	background-color: #6FB9F3;
+}
+.br{
+	float: right;
+	font-size: 50px;
+}
+.article{
+	margin-left: 10px;
+}
+.leftar1{
+	width: 932px;
+	float: left;
+	height: 100px;
+	border: 1px solid white;
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-right: 2px;
+	background-color: #6FB9F3;
+}
+.ar1, .ar2, .ar3, .ar4{
+	float: right;
+	font-size: 50px;
+}
+.rightar2{
+	width: 932px;
+	float: left;
+	height: 100px;
+	border: 1px solid white;
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	background-color: #6FB9F3;
+}
+.leftar3{
+	width: 932px;
+	float: left;
+	height: 100px;
+	border: 1px solid white;
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-right: 2px;
+	background-color: #6FB9F3;
+}
+.rightar4{
+	width: 932px;
+	float: left;
+	height: 100px;
+	border: 1px solid white;
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	background-color: #6FB9F3;
+}
+.footer{
+	float: left;
+	margin-left:10px; 
+	font-size: 50px;
+	width: 1870px;
+	height: 70px;
+	border: 1px solid white;
+	text-align: center;
+	background-color: #6FB9F3;
+	border-radius: 1em 10% 30px;
+}
+@media screen and (max-width: 768px){
+	.leftl1, .mid1, .mid2 {
+		width: 10%;
+		float: left;
+		height: 25px;
+		border-bottom: 1px solid white;
+		border-right: 5px solid white;
+		border-top: 1px solid white;
+		text-align: center;
+		background-color: #6FB9F3;
+	}
+	.rightl4{
+		width: 10%;
+		float: left;
+		height: 25px;
+		border-bottom: 1px solid white;
+		border-right: 1px solid white;
+		border-top: 1px solid white;
+		text-align: center;
+		background-color: #6FB9F3;
+	}
+	.body{
+		float: left;
+		width: 758px;
+		margin: 0 auto; 
+		margin-bottom: 5px;
+	}
+	.banner{
+		width: 748px;
+		height: 200px;
+		border: 1px solid white;
+		border-radius: 30px;
+		margin-left: 10px; 
+		margin-bottom: 20px;
+		background-color: #6FB9F3;
+	}
+	.br{
+		float: right;
+		font-size: 40px;
+	}
+	.leftar1{
+		width: 183px;
+		float: left;
+		height: 200px;
+		border: 1px solid white;
+		border-radius: 5px;
+		text-align: center;
+		margin-bottom: 10px;
+		margin-right: 2px;
+		background-color: #6FB9F3;
+	}
+	.ar1, .ar2, .ar3, .ar4{
+		float: right;
+		font-size: 20px;
+		margin-top: 50px;
+		margin-right: 60px;
+		transform: rotate(-90deg);
+	}
+	.rightar2{
+		width: 183px;
+		float: left;
+		height: 200px;
+		border: 1px solid white;
+		border-radius: 5px;
+		text-align: center;
+		margin-bottom: 10px;
+		margin-right: 2px;
+		background-color: #6FB9F3;
+	}
+	.leftar3{
+		width: 183px;
+		float: left;
+		height: 200px;
+		border: 1px solid white;
+		border-radius: 5px;
+		text-align: center;
+		margin-bottom: 10px;
+		margin-right: 2px;
+		background-color: #6FB9F3;
+	}
+	.rightar4{
+		width: 183px;
+		float: left;
+		height: 200px;
+		border: 1px solid white;
+		border-radius: 5px;
+		text-align: center;
+		margin-bottom: 10px;
+		background-color: #6FB9F3;
+	}
+	.footer{
+		float: left;
+		margin-left:10px; 
+		font-size: 30px;
+		width: 748px;
+		height: 40px;
+		border: 1px solid white;
+		text-align: center;
+		background-color: #6FB9F3;
+		border-radius: 1em 10% 30px;
+	}
+}
+@media screen and (max-width: 480px){
+	.leftl1, .mid1, .mid2, .rightl4{
+		width: 460px;
+		margin-bottom: 2px;
+		border-radius: 5px;
+	}
+	.banner{
+		width: 460px;
+		height: 30px;
+		margin-bottom: 2px;
+	}
+	.br{
+		float: none;
+		text-align: center;
+		font-size: 25px;
+	}
+	.leftar1, .rightar2, .leftar3, .rightar4{
+		width: 460px;
+		height: 30px;
+	}
+	.ar1, .ar2, .ar3, .ar4{
+		float: none;
+		font-size: 25px;
+		transform: rotate(360deg);
+		margin: 0 auto;
+	}
+	.footer{
+		width: 460px;
+	}
+}
