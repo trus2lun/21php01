@@ -1,0 +1,154 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-image: linear-gradient(to bottom, #ada, yellow);
+	height: 100%;
+}
+#body {
+	width: 90%;
+	border: 1px solid black;
+	height: 700px;
+	margin: 30px auto;
+	border-radius: 5%;
+	background-color: #F6E4E4;
+}
+#body header {
+	margin: 15px;
+	padding-top: 30px;
+	padding-bottom: 65px;
+	border-bottom: 2px solid orange;
+}
+#demo {
+	margin-left: 15px;
+}
+h1 { 
+	font-size: 250%;
+	text-shadow: 2px 2px 2px black;
+}
+h2 { 
+	font-size: 130%;
+	text-shadow: 2px 2px 2px black;
+}
+img { 
+	float: left;
+	margin-right: 30px;
+}
+#nav_body1 {
+	height: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+#nav_body1 ul {
+	list-style-type: none;
+}
+#nav_body1 li {
+	margin-right: 10px;
+	padding-right: 10px;
+}
+#nav_body1 ul li {
+	margin-right: 50px;
+	float: left;
+	padding-right: 19px;
+	border-right: 3px solid orange;
+}
+#nav_body1 ul li a {
+	margin-bottom: 1px;
+	display: block;
+	padding: 1px 0;
+	font-weight: bold;
+	color: green;
+	text-decoration: none;
+}
+#nav_body1 ul li a.home {
+	color: orange;
+	font-family: arial;
+	font-size: 15px;
+}
+#nav_body1 ul li a.gt {
+	font-family: arial;
+	font-size: 15px;
+}
+#nav_body1 ul li a.mem {
+	font-family: arial;
+	font-size: 15px;
+}
+#nav_body1 ul li a.us {
+	font-family: arial;
+	font-size: 15px;
+}
+#nav_baka ul li {
+	list-style-type: none;
+}
+#nav_left1 ul li a.tubin {
+	color: gray;
+}
+#nav_left1 ul li a.amy {
+	color: green;
+}
+#nav_left1 ul li a.sampson {
+	color: orange;
+}
+#div_body {
+	margin-top: 10px;
+	border-top: 3px solid orange;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+h3 {
+	font-size: 25px;
+}
+h4 {
+	font-size: 25px;
+}
+h5 {
+	font-size: 25px;
+}
+.someone {
+	text-align: justify-all;
+	margin-right: 20px;
+}
+#left {
+	width: 45%;
+	float: left;
+	border-right: 2px solid orange;
+	margin-top: 38px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+#right {
+	margin-bottom: 30px;
+	width: 40%;
+	float: left;
+	margin-left: 30px;
+}
+#right h6 {
+	font-weight: bold;
+	margin-top: 40px;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+#right ul li {
+    list-style-type: none;
+}
+#right ul li {
+	font-size: 25px;
+}
+#ending {
+	clear: both;
+	border-top: 2px solid orange;
+	margin-right: 40px;
+	margin-left: 40px;
+	padding-right: 30px;
+	padding-top: 15px;
+}
+#ending i {
+	float: right;
+	font-family: arial;
+	font-size: 15px;
+    font-weight: normal;
+}
+@media screen and (max-width: 960px){
+	
+}
