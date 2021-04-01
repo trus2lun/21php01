@@ -1,0 +1,13 @@
+table{
+	width: 800px;
+	border-collapse: collapse;
+}
+table, tr, th, td{
+	border: 1px solid grey;
+}
+thead, tfoot{
+	background-color: #6FB9F3;
+}
+td:nth-child(even){
+	color: red;
+}

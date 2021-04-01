@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	padding-top: 15px;
+	font-size: 15px;
+	text-decoration: underline;
+	color: #02C2FC;
+}
+p {
+	font-size: 17px;
+}
+span {
+	color: red;
+} 
+body {
+	margin: auto;	
+    width: 70%;
+    padding: 50px;
+    height: 300px;
+    background-color: white;
+    background-image: url('../image/dance.jpg');
+}
+#left {
+	float: left;
+}
+#left form{
+	padding: 15px;
+	width: 100%;
+	float: left;
+	background-color: white;
+	border-style: groove;
+	border-radius: 10px;
+	height: 200px;
+}
+#right {
+    margin-left: 25%;
+}
+#right form{
+	padding: 20px;
+	margin-left: 0;
+	float: left;
+	background-color: white;
+	border-style: groove;
+	border-radius: 10px;
+	height: 300px;
+}
+#login form p input.user {
+	margin: 15px;
+	margin-left: 0;
+}
+#login form p input.pass_left {
+	margin: 15px;
+	margin-left: 0;
+}
+#login form p input.submit {
+	margin: 15px;
+}
+#register form p.line1{
+	width: 100%;
+}
+#register form p.left{
+	width: 50%;
+	float: left;
+}
+#register form p.right{
+	width: 50%;
+	float: left;
+}			
+#register form input.first_name {
+	width: 110px;
+	margin: 15px;
+	margin-left: 0;
+}
+#register form input.last_name {
+	width: 110px;
+	margin: 15px;
+	margin-left: 0;
+}
+#register form.p{
+	width: 100%
+}
+#register form input.phone  {
+	width: 245px;
+    margin: 15px;
+    margin-left: 0;
+}
+#register form.p{
+	width: 100%
+}
+#register form input.email {
+	width: 245px;
+	margin: 15px;
+	margin-left: 0;
+}
+#register form input.pass_right {
+	width: 245px;
+	margin: 15px;
+	margin-left: 0;
+}
+#left h1 {
+	margin-bottom: 15px;
+	height: 30px;
+	width: 30px;
+}
+#right h3{
+	padding-left: 0;
+	margin-bottom: 11px;
+    font-size: 30px;
+}
+#name {
+    display: -webkit-box;
+}

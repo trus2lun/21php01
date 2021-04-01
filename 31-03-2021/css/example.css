@@ -1,0 +1,21 @@
+table{
+	width: 2000px;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+table, tr,th, td{
+	border: 1px solid black;
+	text-align: center;
+}
+.special{
+	background-color: yellow;
+}
+.table{
+	overflow-x: scroll;
+}
+.non{
+	color: red;
+}
+.special-2{
+	color: blue;
+}
