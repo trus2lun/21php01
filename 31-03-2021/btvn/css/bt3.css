@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	background-image: url('../image/dance.jpg');
+}
 h1{
 	font-size: 20px;
 	padding: 10px;
