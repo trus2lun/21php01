@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-size: 20px;
+	padding: 10px;
+	padding-left: 97px;
+	color: blue;
+	text-decoration: underline;
+}
+#main-body{
+	background-image: linear-gradient(to bottom, #A4D5FB, #FFB0F9);
+	padding: 15px;
+	border: 3px solid black;
+	border-style: dashed;
+	width: 650px;
+}
+.main-body-1{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.fname{
+	width: 25%;
+	float: left;
+}
+.first_name{
+	width: 220px;
+	float: left;
+	margin-right: 2px;
+}
+.main-body-2{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.lname{
+	width: 25%;
+	float: left;
+}
+.last_name{
+	width: 220px;
+	float: left;
+	margin-right: 2px;
+}
+.main-body-3{
+	width: 100%;
+	padding-bottom: 40px;
+}
+.email{
+	width: 25%;
+	float: left;
+}
+.email-addr{
+	width: 220px;
+	float: left;
+}
+.main-body-4{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.num{
+	width: 25%;
+	float: left;
+}
+.number{
+	width: 220px;
+	float: left;
+	margin-right: 2px;
+}
+.main-body-5{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.gen{
+	width: 25%;
+	float: left;
+}
+.main-body-6{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.day{
+	width: 25%;
+	float: left;
+}
+.main-body-7{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.addr{
+	width: 25%;
+	float: left;
+	margin-top: 65px;
+}
+.address{
+	width: 285px;
+	height:130px; 
+	float: left;
+	margin-right: 180px;
+	margin-bottom: 20px;
+}
+.main-body-8{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.ct{
+	width: 25%;
+	float: left;
+}
+.city{
+	width: 220px;
+	float: left;
+	margin-right: 2px;
+}
+.main-body-9{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.pc{
+	width: 25%;
+	float: left;
+}
+.pin{
+	width: 220px;
+	float: left;
+	margin-right: 2px;
+}
+.main-body-10{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.st{
+	width: 25%;
+	float: left;
+}
+.state{
+	width: 220px;
+	float: left;
+	margin-right: 2px;
+}
+.main-body-11{
+	width: 100%;
+	padding-bottom: 40px;
+}
+.cnt{
+	width: 25%;
+	float: left;
+}
+.country{
+	width: 220px;
+	float: left;
+	margin-right: 2px;
+}
+.main-body-12{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.hob{
+	width: 25%;
+	float: left;
+}
+.other{
+	width: 220px;
+	margin-right: 2px;
+}
+.main-body-13{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.qualification{
+	width: 23%;
+	float: left;
+	margin-top: 10px;
+}
+.main-body-14{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.course{
+	width: 23%;
+	float: left;
+	margin-top: 10px;
+}
+.main-body-15{
+	margin-left: 212px;
+}
+.submit, .reset{
+	width: 100px;
+    height: 35px;
+}
