@@ -1,0 +1,22 @@
+.list_image {
+	width: 60%;
+	margin-left: 250px;
+	border: 1px solid black;
+}
+.list_image .image_detail img {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.image_large img {
+	float: left;
+	height: 200px;
+	margin: 50px;
+	margin-left: 450px;
+}
+#name_text {
+	padding-top: 539px;
+}
