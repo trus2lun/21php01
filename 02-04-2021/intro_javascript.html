@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intro Javascript</title>
+	<script>
+		document.getElementById("demo").innerHTML="Hi bro"
+	</script>
+	<style>
+		#box-demo{
+			height: 200px;
+			width: 300px;
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<p onclick="alert('Test click')">Click me</p>
+
+	<div id="demo">Test click</div>
+	<div id="test_external" onclick="testExternal();">Demo External</div>
+
+	<div id="change_content">Đây là một nội dung đầu tiên</div>
+	<a href="#" onmouseover="change_content();" onmouseleave="change_content_2();">Change Content</a>
+
+	<img src="image/dance.jpg" alt="Test image" id="change_image" width="200" height="200">
+	<a href="#" onclick="changeImage();">Change Image</a>
+
+	<div id="box-demo"></div>
+	<a href="#" onclick="changStyle();">Change style HTML</a>
+
+	<a href="#" onclick="hideImage();">Hide image</a>
+
+	<a href="#" onclick="showImage();">Show image</a>
+
+	<script>
+		document.getElementById("demo").innerHTML="Hi bro";
+		document.getElementById("demo").style.color="red";
+	</script>
+
+	<script type="text/javascript" src="js/intro_javascript.js"></script>
+</body>
+</html>
