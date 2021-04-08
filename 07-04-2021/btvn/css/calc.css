@@ -1,0 +1,23 @@
+*{
+	font-size: 25px;
+}
+.calculator {
+	width: 280px;
+	margin: 0 auto;
+	border: 1px solid grey;
+	height: 400px;
+}
+button {
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin: 5px;
+}
+#result {
+	width: 270px;
+	height: 40px;
+	border: 1px solid black;
+	margin: 5px;
+	text-indent: 5px;
+	font-size: 35px;
+}
