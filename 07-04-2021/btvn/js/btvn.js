@@ -24,11 +24,11 @@ document.write('<br>');
 function baonhieukeo(){
 	var sokeomuaduoc = Math.floor(sotien/gia);
 	var sovokeo = sokeomuaduoc;
-	var soKeoDoiDk = 0;
+	var sokeodoidc = 0;
 	do {
-		soKeoDoiDk = Math.floor(sovokeo/2);
-		sovokeo = soKeoDoiDk + ( sovokeo % 2 );
-		sokeomuaduoc += soKeoDoiDk;  
+		sokedoiduoc = Math.floor(sovokeo/2);
+		sovokeo = sokeodoidc + ( sovokeo % 2 );
+		sokeomuaduoc += sokeodoidc;  
 	} while( sovokeo > 1 )
 		document.write("So keo co duoc la: ");
 		document.write(sokeomuaduoc);
