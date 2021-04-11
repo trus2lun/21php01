@@ -7,28 +7,27 @@
 <body>
 	<h1>My Caculator</h1>
 	<div class="calculator">
-		<div id="result">0</div>
-		<button onclick="resetCal()">CE</button>
-		<button>&nbsp;</button>
-		<button>&nbsp;</button>
-		<button onclick="backCal()">Del</button>
-		<button onclick="addChar('+')">+</button>
-		<button onclick="addChar('-')">-</button>
-		<button onclick="addChar('*')">*</button>
-		<button onclick="addChar('/')">/</button>
-		<button onclick="addChar('9')">9</button>
-		<button onclick="addChar('8')">8</button>
-		<button onclick="addChar('7')">7</button>
-		<button onclick="addChar('6')">6</button>
-		<button onclick="addChar('5')">5</button>
-		<button onclick="addChar('4')">4</button>
-		<button onclick="addChar('3')">3</button>
-		<button onclick="addChar('2')">2</button>
-		<button onclick="addChar('1')">1</button>
-		<button onclick="addChar('0')">0</button>
-		<button onclick="addChar('.')">.</button>
-		<button onclick="calcResult()">=</button>
-		</div>
+		<div id="result" style="text-align: right;">0</div>
+		<button onclick="addChar('(')" class="gray">(</button>
+		<button onclick="addChar(')')" class="gray">)</button>
+		<button onclick="percent()" class="gray">%</button>
+		<button onclick="resetCal()" class="gray">AC</button>
+		<button onclick="addChar('7')" class="white">7</button>
+		<button onclick="addChar('8')" class="white">8</button>
+		<button onclick="addChar('9')" class="white">9</button>
+		<button onclick="addChar('/')" class="gray">÷</button>
+		<button onclick="addChar('4')" class="white">4</button>
+		<button onclick="addChar('5')" class="white">5</button>
+		<button onclick="addChar('6')" class="white">6</button>
+		<button onclick="addChar('*')" class="gray">x</button>
+		<button onclick="addChar('1')" class="white">1</button>
+		<button onclick="addChar('2')" class="white">2</button>
+		<button onclick="addChar('3')" class="white">3</button>
+		<button onclick="addChar('-')" class="gray">-</button>
+		<button onclick="addChar('0')" class="white">0</button>
+		<button onclick="addChar('.')" class="white">.</button>
+		<button onclick="calcResult()" class="blue">=</button>
+		<button onclick="addChar('+')" class="gray">+</button>
 	</div>
 	<script src="js/calc.js"></script>
 </body>

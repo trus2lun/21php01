@@ -1,23 +1,43 @@
-*{
+* {
 	font-size: 25px;
 }
+h1 {
+	text-align: center;
+}
+body {
+	background-image: url(../image/dance.jpg);
+	background-repeat: no-repeat;
+}
 .calculator {
-	width: 280px;
+	width: 645px;
 	margin: 0 auto;
 	border: 1px solid grey;
 	height: 400px;
 }
 button {
-	width: 60px;
-	height: 60px;
+	width: 150px;
+	height: 50px;
 	float: left;
 	margin: 5px;
+	border: 0.5px solid white;
+	border-radius: 15px;
 }
 #result {
-	width: 270px;
-	height: 40px;
+	width: 630px;
+	height: 90px;
 	border: 1px solid black;
+	border-radius: 15px;
 	margin: 5px;
 	text-indent: 5px;
 	font-size: 35px;
+}
+.gray {
+	background-color: #DEDEDE;
+}
+.white {
+	background-color: #F2F2F2;
+}
+.blue {
+	background-color: #0E20F6;
+	color: white;
 }
