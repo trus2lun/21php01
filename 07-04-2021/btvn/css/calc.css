@@ -4,10 +4,6 @@
 h1 {
 	text-align: center;
 }
-body {
-	background-image: url(../image/dance.jpg);
-	background-repeat: no-repeat;
-}
 .calculator {
 	width: 645px;
 	margin: 0 auto;
