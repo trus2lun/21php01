@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+	<h1>Liên hệ với chúng tôi</h1>
+	<form name="lienhe" action="#" class="form-lienhe">
+		<div id="input-control">
+			    <p>Họ và Tên</p>
+		</div>
+		<div class="input">
+			<input type="text" name="Name" placeholder="Nhập tên" id="name">
+			<span id="errorName" class="error"></span>
+		</div>
+		<div id="input-control">
+			    <p>Email</p>
+		</div>
+		<div class="input">
+			<input type="text" name="Email" placeholder="email" id="email">
+			<span id="errorEmail" class="error"></span>
+		</div>
+		<div id="input-control">
+			    <p>Tiêu đề</p>
+		</div>
+		<div class="input">
+			<input type="text" name="Title" placeholder="Nhập tiêu đề" id="title">
+			<span id="errorTitle" class="error"></span>
+		</div>
+		<div id="input-control">
+			    <p>Nội dung</p>
+		</div>
+		<div class="input">
+			<input type="text" name="Content" placeholder="Nhập nội dung" id="content">
+			<span id="errorContent" class="error"></span>
+		</div>
+		<input type="button" name="" value="Gửi" onclick="LienHeVoiChungToi()" class="button">
+	</form>
+	<script type="text/javascript" src="js/form.js"></script>
+</body>
+</html>
