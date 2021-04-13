@@ -2,6 +2,10 @@ h1 {
 	text-align: center;
 	color: #3D0E84
 }
+body {
+	background-image: url('../image/dance.jpg');
+	background-repeat: no-repeat;
+}
 input {
 	width: 280px;
 }
