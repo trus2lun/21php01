@@ -1,13 +1,12 @@
 // tạo tam giác cân
 document.write('---------BT1<br>');
-var soDong = prompt("Nhap do dai canh ");
-for (var i = 1; i <= soDong; i++) {
-	document.write('<br>');
-	for (var j = 1; j <= i; j++) {
-		document.write('*' + '&nbsp;&nbsp;');
-	}
-
-}
+// var soDong = prompt("Nhap do dai canh ");
+// for (var i = 1; i <= soDong; i++) {
+// 	document.write('<br>');
+// 	for (var j = 1; j <= i; j++) {
+// 		document.write('*' + '&nbsp;&nbsp;');
+// 	}
+// }
 document.write('<br>');	
 document.write('---------BT2<br>');
 // tạo tam giác đều
