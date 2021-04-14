@@ -44,11 +44,11 @@ for (var i = 1; i <= soDong; i++) {
 }
 document.write('<br>')
 // 823749283423423423423429483394
-document.write('---------BT4<br>');
-var num = [8,2,3,7,4,9,2,8,3,4,2,3,4,2,3,4,2,3,4,2,3,4,2,9,4,8,3,3,9,4];
-num.sort();
-document.write(num);
-document.write('<br>');
-num.sort(function(a, b){return b - a});
-document.write(num);
-document.write('<br>');
+// document.write('---------BT4<br>');
+// var num = [8,2,3,7,4,9,2,8,3,4,2,3,4,2,3,4,2,3,4,2,3,4,2,9,4,8,3,3,9,4];
+// num.sort();
+// document.write(num);
+// document.write('<br>');
+// num.sort(function(a, b){return b - a});
+// document.write(num);
+// document.write('<br>');
