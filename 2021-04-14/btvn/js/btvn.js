@@ -7,38 +7,31 @@
 
 var HocVien = [
 				["Nguyễn Văn A", "21", "example1@gmail.com", "Đà Nẵng"],
-				["Nguyễn Đỗ B", "25", "example2@gmail.com", "Đà Nẵng"],
+				["Nguyễn Đỗ B", "25", "example2@gmail.com", "Hải Phòng"],
 				["Ngyễn Hoàng C", "22", "example3@gmail.com", "Quảng Nam"],
+				["Ngyễn Lê D", "22", "example4@gmail.com", "Hà Nội"],
 ];
 document.write('Danh sách thông tin học viên: <br>');
 for (var i = 0; i < HocVien.length; i++) {
 	document.write(i+1 + ' . ');
 	for (var j = 0; j < HocVien[i].length; j++) {
-		if (j == HocVien[i].length - 1) {
-			document.write(HocVien[i][j] + '<br>');
-		} else {
-			document.write(HocVien[i][j] + '&nbsp;&nbsp;&nbsp;');
-		}
+		document.write(HocVien[i][j] + '&nbsp' + '<br>');
 	}
 }
-document.write('----------------------<br>');
+document.write('<br>----------------------<br>');
 document.write('Danh sách thông tin học viên thêm 2 người: <br>');
 var HocVien_New = [
-					["Nguyễn Công Huy", "24", "example4@gmail.com", "Cali"],
-					["Nguyễn Hạnh E", "18", "example5@gmail.com", "Thanh Hóa"],
+					["Nguyễn Công Huy", "24", "example5@gmail.com", "Cali"],
+					["Nguyễn Hạnh E", "18", "example6@gmail.com", "Thanh Hóa"],
 ]
 var addHocVien = HocVien.concat(HocVien_New);
 for (var i = 0; i < addHocVien.length; i++) {
 	document.write(i+1 + ' . ');
 	for (var j = 0; j < addHocVien[i].length; j++) {
-		if (j == addHocVien[i].length - 1) {
-			document.write(addHocVien[i][j] + '<br>');
-		} else {
-			document.write(addHocVien[i][j] + '&nbsp;&nbsp;&nbsp;');
-		}
+		document.write(addHocVien[i][j] + '&nbsp' + '<br>');
 	}
 }
-document.write('----------------------<br>');
+document.write('<br>----------------------<br>');
 document.write('Danh sách thông tin học viên đổi tên học viên tên Huy thành tên Hùng: <br>');
 var updateHocVien = [];
 for (var i = 0; i < addHocVien.length; i++) {
@@ -51,11 +44,7 @@ for (var i = 0; i < addHocVien.length; i++) {
 for (var i = 0; i < addHocVien.length; i++) {
 	document.write(i+1 + ' . ');
 	for (var j = 0; j < addHocVien[i].length; j++) {
-		if (j == addHocVien[i].length - 1) {
-			document.write(addHocVien[i][j] + '<br>');
-		} else {
-			document.write(addHocVien[i][j] + '&nbsp;&nbsp;&nbsp;');
-		}
+		document.write(addHocVien[i][j] + '&nbsp' + '<br>');
 	}
 }
-document.write('----------------------<br>');
+document.write('<br>----------------------<br>');
