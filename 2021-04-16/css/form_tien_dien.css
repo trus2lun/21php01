@@ -1,0 +1,46 @@
+h1 {
+	text-align: center;
+	color: green;
+}
+p {
+	margin-top: 0px;
+	height: 30px;
+}
+#form {
+	width: 70%;
+	margin: 10px auto;
+	border: 1px solid gray;
+	height: 800px;
+}
+.input-control {
+	width: 80%;
+	margin: 15px auto;
+	padding: 10px;
+}
+.text {
+	width: 120px;
+	float: left;
+}
+.text_gender {
+	width: 120px;
+	float: left;
+	height: 80px;
+}
+.input {
+	width: 550px;
+}
+input {
+	width: 400px;
+}
+.button {
+	text-align: center;
+}
+#male, #female, #secret {
+	width: 5%;
+}
+.error {
+	color: red;
+}
+#printBill {
+	text-align: center;
+}

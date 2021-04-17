@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tiền Điện</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, user-scalable=1" name="viewport">
+	<link rel="stylesheet" href="css/form_tien_dien.css">
+</head>
+<body>
+	<h1>Phiếu tính tiền điện</h1>
+	<div id="form">
+		<form name="tienDien" action="#" class="form-tiendien">
+			<div class="input-control">
+				<div class="text">
+					<p>Họ và Tên</p>
+				</div>
+				<div class="input">
+					<input type="text" name="Name" placeholder="Enter your full name" id="name">
+					<span id="errorName" class="error"></span>
+				</div>
+			</div>
+				
+			<div class="input-control">
+				<div class="text">
+					<p>Số đầu kỳ</p>
+				</div>
+				<div class="input">
+					<input type="text" name="Name" placeholder="Enter your electricity numbers at the beginning of the period" id="first_number">
+					<span id="errorFirstNumber" class="error"></span>
+				</div>
+			</div>
+			<div class="input-control">
+				<div class="text">
+					<p>Số điện cuối kỳ</p>
+				</div>
+				<div class="input">
+					<input type="text" name="Name" placeholder="Enter your end of period electricity number" id="last_number">
+					<span id="errorLastNumber" class="error"></span>
+				</div>
+			</div>
+			<div class="input-control">
+				<div class="text_gender">
+					<p>Giới tính: </p>
+				</div>
+				<div class="input">				
+					<input type="radio" id="male" name="gender" value="male">
+					<label for="male">Male</label><br>
+					<input type="radio" id="female" name="gender" value="female">
+					<label for="female">Female</label><br>
+					<input type="radio" id="secret" name="gender" value="Secret">
+					<label for="secret">Secret<br></label>
+					<span id="errorGender" class="error"></span>
+				</div>
+			</div>
+			<div class="input-control">
+				<div class="text">
+					<p>Ngày sinh</p>
+				</div>
+				<div class="input">
+					<input type="Date" name="dateOfBirth" placeholder="Enter your birth day" id="dateOfBirth">
+					<span id="errorDate" class="error"></span>
+				</div>
+			</div>	
+			<div class="input-control">
+				<div class="text">
+					<p>Ngày đầu kỳ</p>
+				</div>
+				<div class="input">
+					<input type="date" name="first_day" placeholder="Enter your the first day of the period" id="first_day">
+					<span id="errorFirstDate" class="error"></span>
+				</div>
+			</div>
+			<div class="input-control">
+				<div class="text">
+					<p>Ngày cuối kỳ</p>
+				</div>
+				<div class="input">
+					<input type="date" name="first_day" placeholder="Enter your the end of the period" id="last_day">
+					<span id="errorLastDate" class="error"></span>
+				</div>
+			</div>	
+			<div class="button">
+				<input type="button" name="Tinh tien dien" value="Tinh tien dien" onclick="TienDien(this.form)" style="height: 50px;">
+			</div>
+			<p id="printBill"> no</p>
+		</form>
+	</div>
+	<script src="js/form_tien_dien.js"></script>
+</body>
+</html>
