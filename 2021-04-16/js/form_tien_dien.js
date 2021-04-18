@@ -66,32 +66,34 @@ function TienDien(form) {
 	if (totalNumber > 200) {
 		totalMoney = 100 * 1500 + 100 * 2000 + (totalNumber - 200) * 3500;
 	}
-	printBill += "<p>Ho ten: " + name + "</p>";
-	printBill += "<p>So dau ky: " + first_number + "</p>";
-	printBill += "<p>So cuoi ky: " + last_number + "</p>";
-	printBill += "<p>Ngay cuoi ky: " + first_day + "</p>";
-	printBill += "<p>Ngay cuoi ky: " + last_day + "</p>";
-	printBill += "<p>Tong tien: " + totalMoney + "</p>";
+	printBill += "<p style='text-align: center;'>Hóa Đơn" + "</p>";
+	printBill += "<p>Họ và tên: " + name + "</p>";
+	printBill += "<p>Ngày sinh: " + date_of_birth + "</p>";
+	printBill += "<p>Số đầu kỳ: " + first_number + "</p>";
+	printBill += "<p>Số cuối kỳ: " + last_number + "</p>";
+	printBill += "<p>Ngày đầu kỳ: " + first_day + "</p>";
+	printBill += "<p>Ngày cuối Kỳ: " + last_day + "</p>";
+	printBill += "<p>Tổng tiền: " + totalMoney + "</p>";
+	printBill += "<p style='float: right;'>Chữ Ký: <br>" + name + "</p>";
 	if (form.gender[0].checked == true) {
 		document.getElementById('printBill').innerHTML = printBill;
 		document.getElementById('printBill').style.background = '#24F927';
 		document.getElementById('printBill').style.color = 'black';
-		document.getElementById('printBill').style.height = '260px';
-		document.getElementById('printBill').style.width = '200px';
-		document.getElementById('printBill').style.textAlign = "center";
+		document.getElementById('printBill').style.height = '300px';
+		document.getElementById('printBill').style.width = '200px';;
 	}
 	if (form.gender[1].checked == true) {
 		document.getElementById('printBill').innerHTML = printBill;
 		document.getElementById('printBill').style.background = '#FF5DF0';
 		document.getElementById('printBill').style.color = 'black';
-		document.getElementById('printBill').style.height = '260px';
+		document.getElementById('printBill').style.height = '300px';
 		document.getElementById('printBill').style.width = '200px';
 	}
 	if (form.gender[2].checked == true) {
 		document.getElementById('printBill').innerHTML = printBill;
 		document.getElementById('printBill').style.background = '#000000';
 		document.getElementById('printBill').style.color = 'white';
-		document.getElementById('printBill').style.height = '260px';
+		document.getElementById('printBill').style.height = '300px';
 		document.getElementById('printBill').style.width = '200px';
 	}
 }

@@ -1,3 +1,7 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 h1 {
 	text-align: center;
 	color: green;
@@ -6,10 +10,19 @@ p {
 	margin-top: 0px;
 	height: 30px;
 }
-#form {
-	width: 70%;
-	margin: 10px auto;
-	border: 1px solid gray;
+body {
+	margin: 0 auto;	
+    width: 35%;
+    padding: 50px;
+    height: 300px;
+    background-color: white;
+}
+form {
+	padding: 15px;
+	width: 100%;
+	background-color: white;
+	border-style: groove;
+	border-radius: 6px;
 	height: 800px;
 }
 .input-control {
@@ -41,6 +54,23 @@ input {
 .error {
 	color: red;
 }
-#printBill {
-	text-align: center;
+@media screen and (max-width: 1619px){
+	input {
+		width: 200px;
+	}
+}
+@media screen and (max-width: 1280px){
+	.input {
+		width: 100px;
+	}
+}
+@media screen and (max-width: 1078px){
+	.input {
+		width: 100px;
+	}
+	.text_gender {
+		width: 120px;
+		float: left;
+		height: 20px;
+	}
 }
