@@ -8,7 +8,7 @@ h1 {
 }
 p {
 	margin-top: 0px;
-	height: 30px;
+	height: 40px;
 }
 body {
 	margin: 0 auto;	
@@ -23,7 +23,7 @@ form {
 	background-color: white;
 	border-style: groove;
 	border-radius: 6px;
-	height: 800px;
+	height: 900px;
 }
 .input-control {
 	width: 80%;
@@ -65,6 +65,16 @@ input {
 	}
 }
 @media screen and (max-width: 1078px){
+	.input {
+		width: 100px;
+	}
+	.text_gender {
+		width: 120px;
+		float: left;
+		height: 20px;
+	}
+}
+@media screen and (max-width: 596px){
 	.input {
 		width: 100px;
 	}

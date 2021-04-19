@@ -53,6 +53,9 @@ function TienDien(form) {
 	} else {
 		document.getElementById('errorLastNumber').innerHTML = '';
 	}
+	if (first_number > last_number) {
+		document.getElementById('errorFirstNumber').innerHTML = 'The electricity numbers at the beginning of the period must be higher than the end of period electricity number';
+	}
 	if (first_day > last_day) {
 		document.getElementById('errorFirstDate').innerHTML = 'The first day of the period must not be greater than the end of the period!';
 	}
