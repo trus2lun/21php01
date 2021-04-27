@@ -1,0 +1,43 @@
+#trangchu {
+	color: black;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+.dropdown-item-dropdown-toggle{
+	color: black;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+.dropdown-menu-danh-muc-khoa-hoc {
+	position: relative;
+  	display: inline-block;
+}
+.dropdown-menu {
+	display: none;
+  	position: absolute;
+  	min-width: 300px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+}
+.dropdown-menu a {
+	color: black;
+  	padding: 30px 40px;
+  	text-decoration: none;
+  	display: block;
+}
+
+.dropdown-menu a:hover {
+	background-color: #ddd;
+}
+
+.dropdown-menu-danh-muc-khoa-hoc:hover .dropdown-menu {
+	display: block;
+}
+
+.dropdown-menu-danh-muc-khoa-hoc:hover .dropdown-item-dropdown-toggle {
+	background-color: #3e8e41;
+}

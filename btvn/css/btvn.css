@@ -1,0 +1,8 @@
+span {
+  display: none;
+}
+
+.show:hover + span {
+    display: block;
+    color: red;
+}
